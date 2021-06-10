@@ -1,0 +1,6 @@
+[submodule "driver/dma-proxy"]
+	path = driver/dma-proxy
+	url = git@github.com:baby123456/dma-proxy-native.git
+[submodule "driver/xilinx-dma"]
+	path = driver/xilinx-dma
+	url = git@github.com:baby123456/xilinx-dma.git
