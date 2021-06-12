@@ -43,8 +43,8 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 
 set list_projs [get_projects -quiet]
 if { $list_projs eq "" } {
-   create_project project_1 myproj -part xczu19eg-ffvc1760-2-e
-   set_property BOARD_PART sugon:nf_card:part0:2.0 [current_project]
+   create_project project_1 myproj -part xczu2eg-sfva625-1-e
+   set_property BOARD_PART interwiser:none:part0:2.0 [current_project]
 }
 
 
