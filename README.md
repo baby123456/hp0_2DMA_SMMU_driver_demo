@@ -6,7 +6,7 @@
 
 ## hw
 * Support interwiser and nf board
-* Two AXI DMAs connect to zynq MPSOC HP0 via crossbar
+* Two AXI DMAs connect to zynq MPSOC HP0 via crossbar, which must specifically set addr range to `0~4GB` to let iova addr to pass
 * AxPROT signals of HP0 with a value of 0x2 being non-privileged, non-secure, and data
 
 ## pl_dtsi
