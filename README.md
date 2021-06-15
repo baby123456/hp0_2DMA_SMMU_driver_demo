@@ -13,6 +13,7 @@
 * Support interwiser and nf board
 * enable `smmu`, add two AXI DMA node with `iommus` property , add proxy_dma driver node with `iommus` property
 * HOST dtb set `uncache`, that is **not** set `dma-coherent` in axi-dma dtb node
+* The `compitable` property of two AXI DMAs should match with the `compitable` property of AXI DMA `passthrough reset driver`
 
 ## HOST Image
 * xilinx-v2020.1-dev, *815443a5bcaba7c75831da7ddba2d8c67ea6343a*
